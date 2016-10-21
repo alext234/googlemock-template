@@ -6,6 +6,14 @@ googlemock should be built first:
 - make
 
 
+build runtests:
+- mkdir build
+- cd build
+- cmake ..
+- make
+./runtests
+
+
 
 
 
