@@ -46,10 +46,9 @@ script:
   - cd googletest
   - mkdir build
   - cd build
-  - cmake ..
-  - make
+  - cmake -DCMAKE_CXX_COMPILER=$COMPILER .. && make
   - cd ..
   - cd ..
   - mkdir build
   - cd build
-  - cmake .. && make
+  - cmake -DCMAKE_CXX_COMPILER=$COMPILER .. && make
