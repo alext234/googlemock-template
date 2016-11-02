@@ -43,12 +43,12 @@ before_install:
   - sudo apt-get update -qq
 # Build steps
 script:
-	- cd googletest
-	- mkdir build
-	- cd build
-	- cmake ..
-	- make
-	- cd ..
-	- mkdir build
-	- cd build
-	- cmake .. && make
+  - cd googletest
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make
+  - cd ..
+  - mkdir build
+  - cd build
+  - cmake .. && make
