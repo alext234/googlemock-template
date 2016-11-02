@@ -11,7 +11,7 @@ build runtests:
 - cd build
 - cmake ..
 - make
-./runtests
+- ./runtests
 
 
 
